@@ -3,7 +3,7 @@ This is a project that models the game of last biscuit in C++(similar to the gam
 In this game, there are 2 barrels of biscuits(barrel A starting with 6 and barrel B starting with 8) and 2 players,
 
 The game is played in turns,
-where each player is allowed to either take as many biscuits from either of the barrels or from both of them.
+where each player is allowed to take as many biscuits as they want either from one of the barrels of their choosing or from both of them.
 
 If a player chooses to pick biscuits from both barrels, the maximum biscuits they can pick is the biscuits that are remaining
 in the barrel with the lesser biscuits.
