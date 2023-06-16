@@ -1,6 +1,6 @@
 # LastBiscuit
 This is a project that models the game of last biscuit in C++(similar to the game of nim).
-In this game, there are 2 barrels of biscuits and 2 players,
+In this game, there are 2 barrels of biscuits(barrel A starting with 6 and barrel B starting with 8) and 2 players,
 
 The game is played in turns,
 where each player is allowed to either take as many biscuits from either of the barrels or from both of them.
