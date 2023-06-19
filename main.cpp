@@ -32,6 +32,8 @@ int main()
 
 
     cout << "Welcome to Game Last Biscuit!" << endl;
+
+    //this loop keeps playing the game until game is over(until both barrels have 0 biscuits remaining).
     do
     {
         cout << "barrel A has " << barrelA << " biscuits remaining." << endl
@@ -44,6 +46,7 @@ int main()
         //outputs whose turn is it
         cout << ((player1Turn) ? "First " : "Second ") << "player's turn." << endl;
 
+        //if user enters invalid input, this loop keeps asking for valid input until valid input is entered.
         do
         {
             cout <<"Enter how many biscuits you want to take Or if you want to skip: " << endl;
